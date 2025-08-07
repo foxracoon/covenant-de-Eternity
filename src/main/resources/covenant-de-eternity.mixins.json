@@ -3,7 +3,12 @@
 	"package": "fox.eternity.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"KeyboardMixin",
+		"ModelLoaderMixin",
+		"PlayerEntityMixin",
+		"PlayerEntityModelMixin",
+		"PlayerEntityRendererMixin",
+		"ServerPlayerEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

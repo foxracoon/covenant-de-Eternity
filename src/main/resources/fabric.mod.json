@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"fox.eternity.CovenantDeEternity"
+		],
+		"client": [
+			"fox.eternity.CovenantDeEternityClient"
 		]
 	},
 	"mixins": [

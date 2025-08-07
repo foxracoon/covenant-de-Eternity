@@ -32,7 +32,9 @@ public class CameraOfTheOthersideItem extends Item {
     public ActionResult useOnEntity(ItemStack stack, PlayerEntity user, LivingEntity target, Hand hand) {
         if (target instanceof ServerPlayerEntity targetPlayer && target instanceof TrappedState trappedState) {
             BlockPos playerPos = target.getBlockPos();
+            System.out.println("Camera Testing RIGHT CLICK ON ENTITY" + target);
             if (trappedState.isTrapped()) {
+                System.out.println("Camera Testing THERE IS TRAPPEDSTATE");
                 if (!user.getWorld().isClient && user instanceof ServerPlayerEntity serverPlayer) {
                     FlashPacket.sendToTracking((ServerWorld) user.getWorld(), serverPlayer);
                     user.getWorld().playSound(null, playerPos, ModSounds.BUTTON_CLICK,

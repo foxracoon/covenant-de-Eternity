@@ -3,6 +3,7 @@ package fox.eternity;
 import fox.eternity.Enchantment.ModEnchantments;
 import fox.eternity.Item.ModItems;
 import fox.eternity.effect.ModEffects;
+import fox.eternity.entity.ModEntities;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ public class CovenantDeEternity implements ModInitializer {
 		ModItems.registerModItems();
 		ModEnchantments.init();
 		ModEffects.registerEffects();
+		ModEntities.register();
 
 		LOGGER.info("Hello Fabric world!");
 	}

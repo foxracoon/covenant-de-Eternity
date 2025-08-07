@@ -16,5 +16,8 @@ public class ModEntities {
             new Identifier(CovenantDeEternity.MOD_ID, "knight"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, ChainsEntity::new)
                     .dimensions(EntityDimensions.fixed(1f,1f)).build());
+
+    public static void register() {
+    }
 }
 

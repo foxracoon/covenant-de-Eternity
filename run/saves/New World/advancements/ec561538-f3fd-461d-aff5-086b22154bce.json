@@ -1,9 +1,0 @@
-{
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2025-08-06 17:05:19 -0700"
-    },
-    "done": true
-  },
-  "DataVersion": 3120
-}

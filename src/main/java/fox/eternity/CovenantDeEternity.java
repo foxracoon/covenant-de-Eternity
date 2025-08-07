@@ -1,5 +1,6 @@
 package fox.eternity;
 
+import fox.eternity.Enchantment.ModEnchantments;
 import fox.eternity.Item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -17,6 +18,7 @@ public class CovenantDeEternity implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModEnchantments.init();
 
 		LOGGER.info("Hello Fabric world!");
 	}

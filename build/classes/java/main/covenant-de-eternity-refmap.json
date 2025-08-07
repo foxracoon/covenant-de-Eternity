@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "fox/eternity/mixin/KeyboardMixin": {
+      "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "fox/eternity/mixin/LivingEntityMixin": {
+      "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+    },
+    "fox/eternity/mixin/ModelLoaderMixin": {
+      "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_3300;Lnet/minecraft/class_324;Lnet/minecraft/class_3695;I)V",
+      "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_4727(Lnet/minecraft/class_1091;)V"
+    },
+    "fox/eternity/mixin/PlayerEntityModelMixin": {
+      "positionLeftArm": "Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V",
+      "positionRightArm": "Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V"
+    },
+    "fox/eternity/mixin/PlayerEntityRendererMixin": {
+      "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
+    },
+    "fox/eternity/mixin/ServerPlayerEntityMixin": {
+      "tick": "Lnet/minecraft/class_3222;method_5773()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fox/eternity/mixin/KeyboardMixin": {
+        "onKey": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "fox/eternity/mixin/LivingEntityMixin": {
+        "damage": "Lnet/minecraft/class_1309;method_5643(Lnet/minecraft/class_1282;F)Z"
+      },
+      "fox/eternity/mixin/ModelLoaderMixin": {
+        "<init>": "Lnet/minecraft/class_1088;<init>(Lnet/minecraft/class_3300;Lnet/minecraft/class_324;Lnet/minecraft/class_3695;I)V",
+        "Lnet/minecraft/client/render/model/ModelLoader;addModel(Lnet/minecraft/client/util/ModelIdentifier;)V": "Lnet/minecraft/class_1088;method_4727(Lnet/minecraft/class_1091;)V"
+      },
+      "fox/eternity/mixin/PlayerEntityModelMixin": {
+        "positionLeftArm": "Lnet/minecraft/class_572;method_30155(Lnet/minecraft/class_1309;)V",
+        "positionRightArm": "Lnet/minecraft/class_572;method_30154(Lnet/minecraft/class_1309;)V"
+      },
+      "fox/eternity/mixin/PlayerEntityRendererMixin": {
+        "getArmPose": "Lnet/minecraft/class_1007;method_4210(Lnet/minecraft/class_742;Lnet/minecraft/class_1268;)Lnet/minecraft/class_572$class_573;"
+      },
+      "fox/eternity/mixin/ServerPlayerEntityMixin": {
+        "tick": "Lnet/minecraft/class_3222;method_5773()V"
+      }
+    }
+  }
+}

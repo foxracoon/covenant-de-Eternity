@@ -1,0 +1,21 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-08-06 16:59:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2025-08-06 16:59:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2025-08-06 16:59:00 -0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

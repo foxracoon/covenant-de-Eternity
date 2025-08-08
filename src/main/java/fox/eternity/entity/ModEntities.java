@@ -13,7 +13,7 @@ import net.minecraft.util.registry.Registry;;
 
 public class ModEntities {
     public static final EntityType<ChainsEntity> ChainsEntity = Registry.register(Registry.ENTITY_TYPE,
-            new Identifier(CovenantDeEternity.MOD_ID, "knight"),
+            new Identifier(CovenantDeEternity.MOD_ID, "chains"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, ChainsEntity::new)
                     .dimensions(EntityDimensions.fixed(1f,1f)).build());
 

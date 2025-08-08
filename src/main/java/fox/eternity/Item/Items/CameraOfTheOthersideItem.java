@@ -37,12 +37,14 @@ public class CameraOfTheOthersideItem extends Item {
                 System.out.println("Camera Testing THERE IS TRAPPEDSTATE");
                 if (!user.getWorld().isClient && user instanceof ServerPlayerEntity serverPlayer) {
                     FlashPacket.sendToTracking((ServerWorld) user.getWorld(), serverPlayer);
+                    System.out.println("SOUNDS START");
                     user.getWorld().playSound(null, playerPos, ModSounds.BUTTON_CLICK,
                             SoundCategory.MASTER, 5f, 1f);
                     user.getWorld().playSound(null, playerPos, ModSounds.FLASH,
                             SoundCategory.MASTER, 10f, 1f);
                     user.getWorld().playSound(null, playerPos, ModSounds.FILM_ADVANCE_LAST,
                             SoundCategory.MASTER, 1f, 1f);
+                    System.out.println("SOUND END");
                 }
                 // Find and discard nearby ChainsEntity BEFORE the ban
                 // Kick and ban player

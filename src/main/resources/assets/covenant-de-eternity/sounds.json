@@ -1,0 +1,20 @@
+{
+  "button_click": {
+    "subtitle": "sounds.covenant-de-eternity.button_click",
+    "sounds": [
+      "covenant-de-eternity:button_click"
+    ]
+  },
+  "flash": {
+    "subtitle": "sounds.covenant-de-eternity.flash",
+    "sounds": [
+      "covenant-de-eternity:flash"
+    ]
+  },
+  "film_advance_last": {
+    "subtitle": "sounds.covenant-de-eternity.film_advance_last",
+    "sounds": [
+      "covenant-de-eternity:film_advance_last"
+    ]
+  }
+}

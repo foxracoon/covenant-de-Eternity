@@ -4,8 +4,11 @@ import fox.eternity.Enchantment.ModEnchantments;
 import fox.eternity.Item.ModItems;
 import fox.eternity.effect.ModEffects;
 import fox.eternity.entity.ModEntities;
+import fox.eternity.entity.entities.ChainsEntity;
+import fox.eternity.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,6 +27,10 @@ public class CovenantDeEternity implements ModInitializer {
 		ModEffects.registerEffects();
 		ModEntities.register();
 
+		ModSounds.register();
+
+		//Register Chain Attributes
+		FabricDefaultAttributeRegistry.register(ModEntities.ChainsEntity, ChainsEntity.createChainAttributes());
 		LOGGER.info("Hello Fabric world!");
 	}
 }

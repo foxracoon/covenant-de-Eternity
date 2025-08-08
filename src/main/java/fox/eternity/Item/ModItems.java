@@ -13,6 +13,7 @@ public class ModItems {
 
     public static final Item CAMERA_OF_THE_OTHERSIDE = registerItem("camera_of_the_otherside",
             new CameraOfTheOthersideItem(new FabricItemSettings().maxCount(1).fireproof()));
+    //CTRL-C CTRL-V the already existing camera model for this model PLEASE CHANGE THAT IF THAT CAMERA WAS MEANT TO BE USED SOMEWHERE ELSE
 
 
     private static Item registerItem(String name, Item CamaraOfTheOtherSideItem) {

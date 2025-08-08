@@ -2,11 +2,11 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "menagerie:item/camera_gold",
-		"2": "menagerie:item/film_canister",
-		"3": "menagerie:item/dial",
-		"4": "menagerie:item/flash",
-		"particle": "menagerie:item/film_canister"
+		"1": "covenant-de-eternity:item/camera_gold",
+		"2": "covenant-de-eternity:item/film_canister",
+		"3": "covenant-de-eternity:item/dial",
+		"4": "covenant-de-eternity:item/flash",
+		"particle": "covenant-de-eternity:item/film_canister"
 	},
 	"elements": [
 		{

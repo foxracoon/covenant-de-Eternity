@@ -1,20 +1,23 @@
 {
-	"required": true,
-	"package": "fox.eternity.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"KeyboardMixin",
-		"ModelLoaderMixin",
-		"PlayerEntityMixin",
-		"PlayerEntityModelMixin",
-		"PlayerEntityRendererMixin",
-		"ServerPlayerEntityMixin",
-		"LivingEntityMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "fox.eternity.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "KeyboardMixin",
+    "LivingEntityMixin",
+    "ModelLoaderMixin",
+    "PlayerEntityMixin",
+    "PlayerEntityModelMixin",
+    "PlayerEntityRendererMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "BipedEntityModelMixin"
+  ]
 }

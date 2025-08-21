@@ -16,10 +16,11 @@ public class ModItems {
 
     public static final Item CAMERA_OF_THE_OTHERSIDE = registerItem("camera_of_the_otherside",
             new CameraOfTheOthersideItem(new FabricItemSettings().maxCount(1).fireproof()));
-    //CTRL-C CTRL-V the already existing camera model for this model PLEASE CHANGE THAT IF THAT CAMERA WAS MEANT TO BE USED SOMEWHERE ELSE
+    //Ctrl-C Ctrl-V-ed the already existing camera model, if that was meant to be used somewhere else change the model file for this
 
     public static Item FOX_GUITAR = registerItem("fox_guitar", new Guitar(ToolMaterials.DIAMOND, 4,-2.4f,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
+    //Only the holding animation is done, features will come a bit later
 
 
     private static Item registerItem(String name, Item CamaraOfTheOtherSideItem) {

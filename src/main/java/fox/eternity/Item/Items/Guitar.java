@@ -3,7 +3,6 @@ package fox.eternity.Item.Items;
 import fox.eternity.Enchantment.ModEnchantments;
 import fox.eternity.entity.entities.MagicMissileEntity;
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;

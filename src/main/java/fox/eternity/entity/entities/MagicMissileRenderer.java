@@ -1,7 +1,6 @@
 package fox.eternity.entity.entities;
 
 import fox.eternity.CovenantDeEternity;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.ProjectileEntityRenderer;

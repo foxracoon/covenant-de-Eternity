@@ -7,6 +7,8 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.Identifier;
 
+
+//Renders nothing but needed.
 public class ChainsEntityRenderer <T extends Entity> extends EntityRenderer<T> {
     public ChainsEntityRenderer(EntityRendererFactory.Context ctx) {
         super(ctx);

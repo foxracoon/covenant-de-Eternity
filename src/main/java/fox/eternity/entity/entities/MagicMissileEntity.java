@@ -1,11 +1,8 @@
 package fox.eternity.entity.entities;
 
 import fox.eternity.entity.ModEntities;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.damage.DamageSource;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.particle.ParticleTypes;
@@ -14,14 +11,8 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.EntityHitResult;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.explosion.Explosion;
-import net.minecraft.world.explosion.ExplosionBehavior;
-
-import java.util.Comparator;
-import java.util.List;
-
 
 public class MagicMissileEntity extends ArrowEntity {
 
